@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="pocetna.html">KompShop</a></div>
+        <ul>
+            <li><a href="ponuda.html">Ponuda</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li onclick="pretragaPoTipu('laptop')">Laptopovi</li>
+            <li onclick="pretragaPoTipu('desktop')">Racunari</li>
+            <!-- <li>Televizori</li> -->
+        </ul>
+        <form name="naziv">
+            <input type="text" name="pretraga">
+            <input type="button" onclick="pretragaPoNazivu()" value="pretrazi">
+        </form>
+
+    </header>
+    <main>
+        <aside>
+            <form action="" name="cena">
+                <p><input type="radio" name="cena" value='0' onclick="pretragaCena()"> Sve cene</p>
+                <p><input type="radio" name="cena" value='1' onclick="pretragaCena()"> 0 - 10 000</p>
+                <p><input type="radio" name="cena" value='2' onclick="pretragaCena()"> 10 000 - 20 000</p>
+                <p><input type="radio" name="cena" value='3' onclick="pretragaCena()"> 20 000 - 30 000</p>
+                <p><input type="radio" name="cena" value='4' onclick="pretragaCena()"> 30 000 - 40 000</p>
+                <p><input type="radio" name="cena" value='5' onclick="pretragaCena()"> 40 000 - 50 000</p>
+                <p><input type="radio" name="cena" value='6' onclick="pretragaCena()"> 50 000 - 60 000</p>
+                <p><input type="radio" name="cena" value='7' onclick="pretragaCena()"> 60 000 - 70 000</p>
+                <p><input type="radio" name="cena" value='8' onclick="pretragaCena()"> 70 000 - 80 000</p>
+                <p><input type="radio" name="cena" value='9' onclick="pretragaCena()"> 80 000 - 90 000</p>
+                <p><input type="radio" name="cena" value='10' onclick="pretragaCena()"> 90 000 - 100 000</p>
+            </form>
+        </aside>
+        <article id="ponuda">
+            
+        </article>
+    </main>
+    <script src="proizvodi.js"></script>
+    <script src="ponuda.js"></script>
+</body>
+</html>

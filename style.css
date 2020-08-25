@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0px;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #2f4f4f;
+    padding: 20px;
+}
+
+header ul {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 100px;
+}
+
+header ul, header form {
+    display: inline;
+}
+
+header form {
+    float: right;
+}
+
+header li {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+
+#logo {
+    display: inline;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+#slider {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#slider img {
+    max-height: 500px;
+}
+
+#natpis {
+    width: 100%;
+    height: 80px;
+    background-color: #436666;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+#setajuciTekst {
+    
+    position: relative;
+    left: 20;
+}
+
+main aside, main article {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+main aside {
+    width: 20%;
+    /* background-color: #67452e; */
+    min-height: 100vh;
+    padding: 10px;
+}
+
+main article {
+    width: 79%;
+}
+
+main article section {
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+main article section img {
+    width: 100%;
+}
+
+main article section h3 {
+    font-size: 12px;
+}
+
+main article section p {
+    font-size: 11px;
+    color: gray;
+}
+#pocetna {
+    
+    height: 300px;
+}
+
+#pocetna div {
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+
+}
+
+#pocetna div#pocetna-ponuda {
+    background-image: url("slike/ponuda.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+#pocetna div#pocetna-kontakt {
+    background-image: url("slike/kontakt.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#pocetna a {
+    display: block;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(27, 62, 62, 0.7);
+    line-height: 300px;
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#pocetna a[href="kontakt.html"] {
+
+
+}
+
+#kontakt-strana {
+    width: 30%;
+    padding: 30px;
+}
+
+#kontakt-strana form {
+    background-color: rgb(97, 126, 126, 0.3);
+    padding: 30px;
+}
+
+#kontakt-strana form input[type="text"] {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+
+}
+#kontakt-strana form textarea {
+    width: 100%;
+    height: 100px;
+}
+
+#kontakt-strana form button {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}

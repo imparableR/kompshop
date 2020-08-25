@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="logo"> <a href="pocetna.html">KompShop</a></div>
+        <ul>
+            <li><a href="ponuda.html">Ponuda</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </header>
+    <main id="kontakt-strana">
+        <form action="" name="kontakt">
+            <p id="greska" style="color: red"></p>
+            <p>Unesite ime</p>
+            <input type="text" name="ime">
+            <p>Vas email</p>
+            <input type="text" name="email">
+            <p>Tema</p>
+            <input type="text" name="tema">
+            <p>Vasa poruka</p>
+            <textarea name="poruka" id="" cols="30" rows="10"></textarea>
+            <button type="button" onclick="provera()">Posalji</button>
+        </form>
+        
+    </main>
+    <script src="proizvodi.js"></script>
+    <script src="kontakt.js"></script>
+</body>
+</html>
